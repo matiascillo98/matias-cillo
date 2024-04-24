@@ -1,0 +1,19 @@
+h1 {
+  color: rgb(255, 0, 0);
+}
+
+.barra {
+  text-decoration: none;
+  color: blue;
+}
+.sector1 {
+  color: rgb(0, 238, 255);
+}
+
+.sector2 {
+  color: rgb(214, 153, 74);
+}
+
+.sector3 {
+  color: blue;
+}
