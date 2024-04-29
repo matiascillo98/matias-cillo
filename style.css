@@ -1,5 +1,25 @@
+:root {
+  --fuenteprincipal: "Roboto", sans-serif;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-family: var(--fuenteprincipal);
+}
 h1 {
   color: rgb(255, 0, 0);
+  font-size: 4rem;
+}
+ul {
+  list-style: none;
+}
+.header {
+  background-image: url(/montaña.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  height: 40vh;
 }
 
 .barra {
@@ -8,12 +28,32 @@ h1 {
 }
 .sector1 {
   color: rgb(0, 238, 255);
+  font-size: 2rem;
 }
 
 .sector2 {
   color: rgb(214, 153, 74);
+  font-size: 2rem;
 }
 
 .sector3 {
-  color: blue;
+  background-color: aqua;
+  color: white;
+  font-size: 2rem;
+}
+.nav ul,
+a {
+  display: inline-flex;
+  padding: 2rem;
+  font-size: 2.5rem;
+}
+
+.card {
+  background-color: sandybrown;
+  width: 500px;
+  font-size: 2rem;
+  padding: 2rem;
+  margin: 1.5rem 0 1rem 5rem;
+  border: 5px solid red;
+  border-radius: 1rem;
 }
